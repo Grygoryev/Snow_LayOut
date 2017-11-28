@@ -1,5 +1,8 @@
+
+
 first-block
 	first-block__content
+		first-block__text
 		first-block__text		
 
 header
@@ -9,8 +12,8 @@ header
 	make-order-button
 
 uslugi-block
-	h1
-	h2
+	uslugi-block__h1
+	uslugi-block__h2
 	uslugi-block__content
 		uslugi-block__item
 		uslugi-block__item
@@ -29,7 +32,7 @@ uslugi-block
 			uslugi-item__footer
 
 why-we-block
-	h1
+	why-we-block__h1
 	why-we-block__content
 		why-we-block__item
 			why-we-block__item-icon

@@ -4,8 +4,22 @@
 		url('../fonts/FuturaPT/FuturaPT-Medium.ttf') format('ttf'),
 		url('../fonts/FuturaPT/FuturaPT-Medium.eot') format('eot'),
 		url('../fonts/FuturaPT/FuturaPT-Medium.svg') format('svg'),
-		url('../fonts/FuturaPT/FuturaPT-Medium.woff') format('woff'); 
+		url('../fonts/FuturaPT/FuturaPT-Medium.woff') format('woff'),
+		url('../fonts/FuturaPT/FuturaPT-Demi.ttf') format('ttf'),
+		url('../fonts/FuturaPT/FuturaPT-Demi.eot') format('eot'),
+		url('../fonts/FuturaPT/FuturaPT-Demi.svg') format('svg'),
+		url('../fonts/FuturaPT/FuturaPT-Demi.woff') format('woff'),
+		url('../fonts/FuturaPT/FuturaPT-Heavy.ttf') format('ttf'),
+		url('../fonts/FuturaPT/FuturaPT-Heavy.eot') format('eot'),
+		url('../fonts/FuturaPT/FuturaPT-Heavy.svg') format('svg'),
+		url('../fonts/FuturaPT/FuturaPT-Heavy.woff') format('woff'),
+		url('../fonts/FuturaPT/FuturaPT-Book.ttf') format('ttf'),
+		url('../fonts/FuturaPT/FuturaPT-Book.eot') format('eot'),
+		url('../fonts/FuturaPT/FuturaPT-Book.svg') format('svg'),
+		url('../fonts/FuturaPT/FuturaPT-Book.woff') format('woff');
 }
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 body {
 	width: 1280px; 
@@ -29,7 +43,7 @@ body {
 
 .first-block__text_size_h1 {
 	font-size: 50px;
-	/*width: 460px;  альтернатива <br> в заголовке*/ 
+	width: 460px; 
 	line-height: 50px;	
 }
 
@@ -39,7 +53,7 @@ body {
 }
 
 .header {
-	padding: 37px 52px;
+	padding: 37px 52px 0px 52px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -68,9 +82,8 @@ body {
 
 .menu__link {
 	text-decoration: none;
-	font-weight: 500;
-	font-family: 'FuturaPT-Medium';
-	font-style: medium;
+	font-family: 'FuturaPT-Medium', 'FuturaPT', sans-serif;
+	line-height: 70px;
 } 
 
 .menu__link_theme_black {
@@ -79,6 +92,7 @@ body {
 
 .menu__link_theme_grey {
 	color: #555555;
+	font-size: 16px;
 }
 
 .phone-number {
@@ -93,14 +107,15 @@ body {
 	border: 2px solid black;
 	border-radius: 0;
 	background: transparent;
-	font-weight: bold;
 	cursor: pointer;
 }
 
 .make-order-button__link {
 	color: #74e196;
 	text-transform: uppercase;
-	text-decoration: none;  
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'FuturaPT-Heavy', 'FuturaPT', sans-serif;  
 /*	width: inherit;	   <-- на данный момент не
 	height: inherit;   <-- получается растянуть размер ссылки на 
 	display: block;    <-- всю кнопку, блок начинает съезжать
@@ -122,26 +137,26 @@ body {
 
 .h1 {
 	font-size: 40px;
-	font-weight: bold;
+	line-height: 35px;
+	font-family: 'FuturaPT-Demi', 'FuturaPT', sans-serif;
 	text-align: center;
 	display: block;
 }
 
 .h1_theme_white {
 	color: white;
-    padding-top: 61px;
-    padding-bottom: 7px;
-    line-height: 0;
 }
 
 .h2 {
 	font-size: 20px;
-	font-weight: 450;
+	font-family: 'FuturaPT-Medium', 'FuturaPT', sans-serif;
 	text-align: center;
+	line-height: 30px;
 }
 
 .h2_theme_grey {
 	color: #525252;
+	line-height: 25px;	
 }
 
 .h2_theme_white {
@@ -151,7 +166,11 @@ body {
 }
 
 .uslugi-block {
-	margin-bottom: 41px;
+
+}
+
+.uslugi-block__h2 {
+	line-height: 35px;
 }
 
 .uslugi-block__content {
@@ -165,36 +184,36 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 360px;
-    height: 245px;
+    /*height: 245px;*/
     margin: 20px;
 }
 
 .uslugi-item__h2 {
 	text-align: left;
 	margin: 0;
-	line-height: 15px;
+	line-height: 25px;
 }
 
 .uslugi-item__text {
+	width: 357px;
 	line-height: 22px;
 	font-size: 15px;
-	font-family: 'PT Sans', 'FuturaPT, sans-serif';
+	font-family: 'PT Sans', 'FuturaPT', sans-serif;
 }
 
 .uslugi-item__footer {
 	display: flex;
 	justify-content: space-between;
-	line-height: 0;
-	min-height: 49px;
+	align-items: center;
 }
 
-.uslugi-item-footer__arrow-img {
-	max-height: 27px;
-	max-width: 37px;
-}
+	.uslugi-item-footer__arrow-img {
+		max-height: 27px;
+		max-width: 37px;
+	}
 
 .why-we-block {
-
+	padding: 23px 0px 48px 0px;
 }
 
 .why-we-block__content {
@@ -202,8 +221,8 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 1160px;
-    /*margin: 0 auto;*/
-    padding: 0px 73px 0 58px;
+    margin: 0 auto;
+	padding-top: 18px;
 }
 
 .why-we-block__item {
@@ -216,15 +235,18 @@ body {
     width: 315px;
     font-size: 15px;
     line-height: 22px;
-    font-family: 'PT Sans', 'FuturaPT, sans-serif';
+    font-family: 'PT Sans', 'FuturaPT', sans-serif;
 }
 
 .skidki-block {
-	background-image: 
-		url('../pic/skidki-block/skidki-block-background.png');
-	min-height: 362px;
-	background-color: whitesmoke;
-	text-align: center;
+    background-image: 
+    	url(../pic/skidki-block/skidki-block-background.png);
+    min-height: 362px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .skidki-block__content {
@@ -243,7 +265,7 @@ body {
 .skidki-block__text {
 	color: white;
 	font-size: 20px;
-	font-weight: 450;
+	font-family: 'FuturaPT-Book', 'FuturaPT', sans-serif;
 	line-height: 23px;
 }
 
@@ -270,25 +292,27 @@ body {
 }
 
 .our-team-block__text {
-    width: 761px;
-    font-size: 18px;
+    width: 680px;
+    font-size: 15px;
+    font-family: 'PT Sans', 'FuturaPT', sans-serif;
     line-height: 22px;
     margin: 0 auto;
     margin-bottom: 67px;
 }
 
 .community-block {
-
+	padding-top: 22px;
 }
 
 .community-block__h1 {
-	padding: 28px 0 6px 0;
+	padding: 29px 0 13px 0;
 }
 
 .community-block__text {
 	width: 830px;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 22px;
+	font-family: 'PT Sans', 'FuturaPT', sans-serif;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -339,16 +363,16 @@ body {
 }
 
 .footer__bottom {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 50px;
 }
 
 .copyright-sign {
 	width: 300px;
 	font-size: 15px;
-	font-weight: bold;
+	font-family: 'FuturaPT-Demi', 'FuturaPT', sans-serif;
 	line-height: 22px;
 	text-align: left;
 }
