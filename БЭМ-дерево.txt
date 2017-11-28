@@ -1,0 +1,98 @@
+first-block
+	first-block__content
+		first-block__text		
+
+header
+	logo
+	menu
+	phone-number
+	make-order-button
+
+uslugi-block
+	h1
+	h2
+	uslugi-block__content
+		uslugi-block__item
+		uslugi-block__item
+		uslugi-item
+			uslugi-item__h2
+			uslugi-item__text
+			uslugi-item__footer
+		uslugi-item
+			uslugi-item__h2
+			uslugi-item__text
+			uslugi-item__footer
+		uslugi-block__item
+		uslugi-item
+			uslugi-item__h2
+			uslugi-item__text
+			uslugi-item__footer
+
+why-we-block
+	h1
+	why-we-block__content
+		why-we-block__item
+			why-we-block__item-icon
+			h2
+			why-we-block__text
+		why-we-block__item
+			why-we-block__item-icon
+			h2
+			why-we-block__text			
+		why-we-block__item
+			why-we-block__item-icon
+			h2
+			why-we-block__text
+		why-we-block__item
+			why-we-block__item-icon
+			h2
+			why-we-block__text
+		why-we-block__item
+			why-we-block__item-icon
+			h2
+			why-we-block__text
+		why-we-block__item
+			why-we-block__item-icon
+			h2
+			why-we-block__text
+
+skidki-block
+	h1
+	skidki-block__content
+		skidki-block__item
+			h2
+			skidki-block__text
+		skidki-block__item
+			h2
+			skidki-block__text
+		skidki-block__item
+			h2
+			skidki-block__text
+	make-order-button 
+
+our-team-block
+	our-team-block__h1
+	our-team-block__background
+	our-team-block__content
+		our-team-block__text
+	make-order-button
+
+commnunity-block
+	commnunity-block__h1
+	commnunity-block__text
+	google-map-location
+	community-block__h1
+	snow-photo-gallery
+
+footer 
+	footer__top
+		logo
+		social-icons
+		footer__contacts
+			phone-number
+			email-contact
+	footer__bottom
+		copyright-sign
+		menu
+
+

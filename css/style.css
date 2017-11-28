@@ -1,0 +1,356 @@
+@font-face {
+	font-family: 'Futura PT';
+	src: local 'Futura PT',
+		url('../fonts/FuturaPT/FuturaPT-Medium.ttf') format('ttf'),
+		url('../fonts/FuturaPT/FuturaPT-Medium.eot') format('eot'),
+		url('../fonts/FuturaPT/FuturaPT-Medium.svg') format('svg'),
+		url('../fonts/FuturaPT/FuturaPT-Medium.woff') format('woff'); 
+}
+
+body {
+	width: 1280px; 
+	/*overflow-x: hidden;*/
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Futura PT', 'Times', sans-serif;
+	font-size: 15px;
+}
+
+.first-block {
+	background-image: url('../pic/first-block/header.png');
+	min-height: 645px;
+}
+
+.first-block__content {
+	padding: 113px 0 0 60px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.first-block__text_size_h1 {
+	font-size: 50px;
+	/*width: 460px;  альтернатива <br> в заголовке*/ 
+	line-height: 50px;	
+}
+
+.first-block__text_size_h2 {
+	font-size: 38px;
+	line-height: 70px;
+}
+
+.header {
+	padding: 37px 52px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.logo {
+	width: 160px;
+	height: 55px;
+	border: 4px solid black;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Avenir Next', 'Times', sans-serif;
+	display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.menu {
+	width: 560px;
+	font-weight: 549;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu__link {
+	text-decoration: none;
+	font-weight: 500;
+	font-family: 'FuturaPT-Medium';
+	font-style: medium;
+} 
+
+.menu__link_theme_black {
+	color: black;
+}
+
+.menu__link_theme_grey {
+	color: #555555;
+}
+
+.phone-number {
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+}
+
+.make-order-button {
+	height: 46px;
+	color: #74e196;
+	border: 2px solid black;
+	border-radius: 0;
+	background: transparent;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.make-order-button__link {
+	color: #74e196;
+	text-transform: uppercase;
+	text-decoration: none;  
+/*	width: inherit;	   <-- на данный момент не
+	height: inherit;   <-- получается растянуть размер ссылки на 
+	display: block;    <-- всю кнопку, блок начинает съезжать
+*/
+}
+
+.make-order-button_theme_black-border-big {
+	width: 224px;
+}
+
+.make-order-button_theme_black-border-s {
+	width: 136px;
+}
+
+.make-order-button_theme_white-border-s {
+	width: 136px;
+	border: 2px solid white;
+}
+
+.h1 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+}
+
+.h1_theme_white {
+	color: white;
+    padding-top: 61px;
+    padding-bottom: 7px;
+    line-height: 0;
+}
+
+.h2 {
+	font-size: 20px;
+	font-weight: 450;
+	text-align: center;
+}
+
+.h2_theme_grey {
+	color: #525252;
+}
+
+.h2_theme_white {
+	color: white;
+	font-size: 22px;    
+	line-height: 18px;
+}
+
+.uslugi-block {
+	margin-bottom: 41px;
+}
+
+.uslugi-block__content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.uslugi-block__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 245px;
+    margin: 20px;
+}
+
+.uslugi-item__h2 {
+	text-align: left;
+	margin: 0;
+	line-height: 15px;
+}
+
+.uslugi-item__text {
+	line-height: 22px;
+	font-size: 15px;
+	font-family: 'PT Sans', 'FuturaPT, sans-serif';
+}
+
+.uslugi-item__footer {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0;
+	min-height: 49px;
+}
+
+.uslugi-item-footer__arrow-img {
+	max-height: 27px;
+	max-width: 37px;
+}
+
+.why-we-block {
+
+}
+
+.why-we-block__content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1160px;
+    /*margin: 0 auto;*/
+    padding: 0px 73px 0 58px;
+}
+
+.why-we-block__item {
+    width: 360px;
+    text-align: center;
+}
+
+.why-we-block__text {
+	text-align: left;
+    width: 315px;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'PT Sans', 'FuturaPT, sans-serif';
+}
+
+.skidki-block {
+	background-image: 
+		url('../pic/skidki-block/skidki-block-background.png');
+	min-height: 362px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+
+.skidki-block__content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.skidki-block__item {
+	width: 205px;
+	text-align: center;
+	margin: 0 72px;
+	margin-bottom: 27px;
+}
+
+.skidki-block__text {
+	color: white;
+	font-size: 20px;
+	font-weight: 450;
+	line-height: 23px;
+}
+
+.any-text_color_green {
+	color: #83eba5
+}
+
+.our-team-block {
+
+}
+
+.our-team-block__h1 {
+	padding: 36px 0 6px 0;
+}
+
+.our-team-block__background {
+	padding: 0 111px;
+}
+
+.our-team-block__content {
+	margin-top: -178px;
+	text-align: center;
+
+}
+
+.our-team-block__text {
+    width: 761px;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto;
+    margin-bottom: 67px;
+}
+
+.community-block {
+
+}
+
+.community-block__h1 {
+	padding: 28px 0 6px 0;
+}
+
+.community-block__text {
+	width: 830px;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.google-map-location {
+	padding: 47px 60px;
+}
+
+.snow-photo-gallery {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 0px 60px 86px 60px;
+}
+
+.footer {
+	background-image: url('../pic/footer/footer-background.png');
+	min-height: 306px;
+	padding: 0px 60px;
+}
+
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 58px;
+}
+
+.social-icons {
+	width: 260px;
+	display: flex;
+	justify-content: space-between;
+	max-height: 33px;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.email-contact {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+	color: black;
+	display: block;
+}
+
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-top: 50px;
+}
+
+.copyright-sign {
+	width: 300px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 22px;
+	text-align: left;
+}
+
+

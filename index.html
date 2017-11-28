@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title> Snow School </title>
+</head>
+<body>
+	<div class="first-block">
+		<div class="first-block__content"> <!-- почему-то если использовать тег <content> вместо <div>, стилизации не происходит -->
+			<div class="first-block__text first-block__text_size_h1"> 
+				Школа сноуборда <br> <!-- решил использовать <br> вместо фиксированной ширины для переноса на след строку -->
+				и горных лыж
+			</div>
+			<div class="first-block__text first-block__text_size_h2">
+				в Санкт-Петербурге
+			</div>
+		</div>
+	</div>
+
+	<header class="header">
+		<span class="logo">
+			ICE ACE
+		</span>			
+		<nav class="menu">
+			<a href="#" class="menu__link 
+							   menu__link_theme_black">Расписание</a>
+			<a href="#" class="menu__link 
+							   menu__link_theme_black">Инструкторы</a>
+			<a href="#" class="menu__link 
+							   menu__link_theme_black">Стоимость</a>
+			<a href="#" class="menu__link
+							   menu__link_theme_black">Как добраться</a>
+		</nav>
+		<div class="phone-number">
+			8 (800) 800-80-80			
+		</div>		
+		<button class="make-order-button 			
+						   make-order-button_theme_black-border-s">
+			<a class="make-order-button__link" href="#"> Записаться </a>
+		</button>
+	</header>
+
+	<div class="uslugi-block">
+		<h1 class="h1">Наши услуги</h1>
+		<h2 class="h2">Для взрослых и детей 6+ / любого уровня подготовки</h2>
+		<div class="uslugi-block__content">
+			<div class="uslugi-block__item">
+				<img src="pic/uslugi-block/uslugi-photo.png" alt="">
+			</div>
+			<div class="uslugi-block__item">
+				<img src="pic/uslugi-block/uslugi-photo2.png" alt="">
+			</div>
+
+			<div class="uslugi-block__item uslugi-item">
+				<h2 class="h2 uslugi-item__h2">Краткий курс</h2>
+				<p class="uslugi-item__text">Экспресс курс рассчитан на тех, кто хочет 
+				повысить свой уровень в короткий срок,  
+				узнать новые техники катания и получить 
+				лайфхаки “как кататься как чемпион” 
+				от опытных инструкторов, подходит как 
+				для новичков, так и более опытных</p>
+				<div class="uslugi-item__footer">
+						<h2 class="h2 h2_theme_grey"> 5 занятий </h2>
+						<img class="uslugi-item-footer__arrow-img" src="pic/uslugi-block/arrow.png" alt="">
+				</div>
+			</div>
+
+			<div class="uslugi-block__item uslugi-item">
+				<h2 class="h2 uslugi-item__h2">Разовое посещение</h2>
+					<p class="uslugi-item__text">
+					Впервые здесь? Тогда эта возможность точно для вас. Приходите на разовое занятие <!-- <br> --> <!-- очень не хотелось этого делать, но добавил br, потом -->
+					и проникнетесь атмосферой школы, познакомитесь с инструкторами и узнаете о том, как проходит обучение. После занятия мы определим ваш уровень и прикинем план занятий</p>
+				<div class="uslugi-item__footer">
+						<h2 class="h2 h2_grey_theme"> 3 часа </h2>
+						<img class="uslugi-item-footer__arrow-img" src="pic/uslugi-block/arrow.png" alt="">
+				</div>
+			</div>
+
+			<div class="uslugi-block__item">
+				<img src="pic/uslugi-block/uslugi-photo3.png" alt="">
+			</div>
+
+			<div class="uslugi-block__item uslugi-item">
+				<h2 class="h2 uslugi-item__h2">Полный курс</h2>
+					<p class="uslugi-item__text">
+					Продвинутый курс для самых вдохновленных 
+					горными лыжами и сноубордом, здесь вы 
+					не только улучшите свою технику, но 
+					и получите много дополнительных обучающих 
+					материалов и видео-уроков от участников 
+					мировых чемпионатов, здесь вы узнаете все</p>
+				<div class="uslugi-item__footer">
+						<h2 class="h2 h2_grey_theme"> 10 занятий </h2>
+						<img class="uslugi-item-footer__arrow-img" src="pic/uslugi-block/arrow.png" alt="">
+				</div>
+			</div>				
+		</div>
+	</div>
+
+
+	<div class="why-we-block">
+		<h1 class="h1">Почему мы</h1>
+		<div class="why-we-block__content">
+			<div class="why-we-block__item">
+				<img class="why-we-block__item-icon" src="pic/why-we-block/like.png" alt="">
+				<h2 class="h2">100%<br>гарантия результата</h2>
+				<p class="why-we-block__text">Уверены — научиться кататься и улучшить свой навык может каждый, и мы гарантируем результат уже через 5 занятий</p>
+			</div>
+			<div class="why-we-block__item">
+				<img class="why-we-block__item-icon" src="pic/why-we-block/certificate.png" alt="">
+				<h2 class="h2">Опытные<br>инструктры</h2>
+				<p class="why-we-block__text">У всех инструкторов школы есть международный сертификат, который дает право обучать катанию на сноуборде и горных лыжах</p>
+			</div>				
+			<div class="why-we-block__item">
+				<img class="why-we-block__item-icon" src="pic/why-we-block/today-100.png" alt="">
+				<h2 class="h2">Индивидуальные занятия<br>и расписание</h2>
+				<p class="why-we-block__text">Мы любим индивидуальный подход, поэтому все занятия с тренером — персональные, 
+				а график обучения составляете вы сами</p>	
+			</div>		
+			<div class="why-we-block__item">
+				<img class="why-we-block__item-icon" src="pic/why-we-block/ski.png" alt="">
+				<h2 class="h2">Инвентарь и одежда</h2>
+				<p class="why-we-block__text">Все, что необходимо для комфортного занятия - включено в стоимость, с нами не нужно беспокоиться об аренде снаряжения и покупке дорогой одежды</p>				
+			</div>
+			<div class="why-we-block__item">
+				<img class="why-we-block__item-icon" src="pic/why-we-block/snowboard-helmet.png" alt="">
+				<h2 class="h2">Безопасность</h2>
+				<p class="why-we-block__text">Каждый инструктор подбирает технику катания и угол склона индивидуально под ваш уровень и гарантирует 100% безопасность во время занятия</p>	
+			</div>
+			<div class="why-we-block__item">
+				<img class="why-we-block__item-icon" src="pic/why-we-block/bus.png" alt="">
+				<h2 class="h2">Трансфер</h2>
+				<p class="why-we-block__text">30 минут и вы на месте, столько примерно занимает дорога из центра города до склона на нашем бесплатном трансфере, который легко забронировать</p>				
+			</div>
+		</div>		
+	</div>
+
+	<div class="skidki-block">
+		<h1 class="h1 h1_theme_white">Скидки на абонементы</h1>
+		<div class="skidki-block__content">
+			<div class="skidki-block__item">
+				<h2 class="h2 h2_theme_white">Пробуй</h2>
+				<p class="skidki-block__text">
+				Дарим скидку <span class="any-text_color_green">5%</span> новичкам, прошедшим разовое занятие
+				</p>
+			</div>
+			<div class="skidki-block__item">
+				<h2 class="h2 h2_theme_white">Катайся вместе</h2>
+				<p class="skidki-block__text">
+				Получи скидку <span class="any-text_color_green">10%</span>, если друг записался по твоей рекомендации
+				</p>
+			</div>	
+			<div class="skidki-block__item"У>
+				<h2 class="h2 h2_theme_white">Учись всей семьёй</h2>
+				<p class="skidki-block__text">
+				Покупай абонемент для себя и получи скидку <span class="any-text_color_green">15%</span> для ребенка	
+				</p>
+			</div>
+		</div>
+		<button class="make-order-button 			
+					   make-order-button_theme_white-border-s ">
+			<a class="make-order-button__link" href="#"> Записаться </a>
+		</button>		
+	</div>
+	
+	<div class="our-team-block">
+		<h1 class="h1 our-team-block__h1">Команда</h1>
+		<img class="our-team-block__background" src="pic/our-team-block/our-team-block-bg.png" alt="">
+		<div class="our-team-block__content">
+			<p class="our-team-block__text">Привет! Мы — команда инструкторов ICE ACE, с нами вы научитесь кататься как настоящие асы, 
+			потому что мы знаем, что такое выкладываться на склоне, бороться со стихией, добиваться высоких результатов и покорять самые сложные трассы. В наших рядах призеры мировых чемпионатов и они готовы поделиться своим ценным опытом, чтобы каждый урок стал вашей личной победой</p>
+		<button class="make-order-button 			
+					   make-order-button_theme_black-border-big">
+			<a class="make-order-button__link" href="#"> Записаться </a>
+		</button>
+		</div>
+	</div>
+	
+	<div class="community-block">
+		<h1 class="h1 community-block__h1">Сообщество</h1>
+		<p class="community-block__text">ICE ACЕ — не только школа, а целое комьюнити вдохновленных снегом и горами людей, мы без ума 
+		от сноуборда и горных лыж и часто делимся важными событиями в социальных сетях, следите за нами 
+		на канале Youtube и в Instagram или приходи к нам, мы всё расскажем.</p>
+
+		<iframe class="google-map-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1997.5021293453824!2d30.315929915998744!3d59.95699386757998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696314205950e69%3A0x7d0a39c0ff298a78!2z0KjQutC-0LvQsCDQuNC90YLQtdGA0L3QtdGCLdGC0LXRhdC90L7Qu9C-0LPQuNC5IEVwaWMgU2tpbGxz!5e0!3m2!1sru!2sru!4v1511753012216" width="1160" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>	
+		<h1 class="h1 community-block__h1">#ice_ace_community</h1>
+		<div class="snow-photo-gallery">
+			<img src="pic/community-block/snow-gallery-1.png" alt="" class="snow-photo__item">
+			<img src="pic/community-block/snow-gallery-2.png" alt="" class="snow-photo__item">
+			<img src="pic/community-block/snow-gallery-3.png" alt="" class="snow-photo__item">
+			<img src="pic/community-block/snow-gallery-4.png" alt="" class="snow-photo__item">
+			<img src="pic/community-block/snow-gallery-5.png" alt="" class="snow-photo__item">
+			<img src="pic/community-block/snow-gallery-6.png" alt="" class="snow-photo__item">			
+		</div>		
+	</div>
+	
+	<footer class="footer">
+		<div class="footer__top">
+			<span class="logo">
+				ICE ACE
+			</span>	
+			<div class="social-icons">
+				<img src="pic/footer/youtube-logo.png" alt="" class="social-icons__item">
+				<img src="pic/footer/instagram-logo.png" alt="" class="social-icons__item">
+				<img src="pic/footer/facebook-logo.png" alt="" class="social-icons__item">
+				<img src="pic/footer/vk.png" alt="" class="social-icons__item">
+				
+			</div>
+			<div class="footer__contacts">
+				<span class="phone-number">
+					8 (800) 800-80-80			
+				</span>
+				<span class="email-contact">
+					hello@iceace.com			
+				</span>
+			</div>		
+		</div>
+		<div class="footer__bottom">
+			<span class="copyright-sign">
+				© 2017 “ICE ACE” — школа сноуборда и горных лыж. Все права защищены 
+			</span>
+
+			<nav class="menu">
+			<a href="#" class="menu__link 
+							   menu__link_theme_grey">Расписание</a>
+			<a href="#" class="menu__link 
+							   menu__link_theme_grey">Инструкторы</a>
+			<a href="#" class="menu__link 
+							   menu__link_theme_grey">Стоимость</a>
+			<a href="#" class="menu__link
+							   menu__link_theme_grey">Как добраться</a>
+			</nav>
+		</div>	
+	</footer>
+
+</body>
+</html>
